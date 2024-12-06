@@ -2,7 +2,7 @@
  * File: parse.c
  * contains functions to read and parse input from a source file
  */
-#include "lc3asm.h"
+#include <lc3asm.h>
 
 /*
  * 

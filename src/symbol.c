@@ -2,7 +2,7 @@
  * File: symbol.c
  * Contains functions to handle the symbol table
  */
-#include "lc3asm.h"
+#include <lc3asm.h>
 
 /*
  * The symbol table is implemented as a linked list, with each node as the "symbol" structure

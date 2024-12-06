@@ -2,7 +2,7 @@
  * Main file
  */
 
-#include "lc3asm.h"
+#include <lc3asm.h>
 
 int main(int argc, char *argv[])
 {

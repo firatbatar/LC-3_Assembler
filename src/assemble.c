@@ -4,7 +4,7 @@
  * of the assembly process.
  */
 
-#include "lc3asm.h"
+#include <lc3asm.h>
 
 /*
  * 
