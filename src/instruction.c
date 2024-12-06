@@ -3,7 +3,7 @@
  * Contains functions to help in the instruction generation process
  */
  
-#include "lc3asm.h"
+#include <lc3asm.h>
 
 /*
  * 

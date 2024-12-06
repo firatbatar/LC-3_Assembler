@@ -3,7 +3,7 @@
  * Functions to convert instructions from assembly to the LC-3 ISA machine code in binary
  */
 
-#include "lc3asm.h"
+#include <lc3asm.h>
 
 /*
  * 
@@ -12,7 +12,7 @@
  * Assembler directives (Pseudo-ops) are also covered except .BLKW and .STRINGZ
  * 
  */
-int generate_instruction(char inst[], line *l, int opindex, symbol *symtable, int *LC)
+int generate_instruction(char inst[16], line *l, int opindex, symbol *symtable, int *LC)
 {
     if (strcmp(l->tokens[opindex], "ADD") == 0)
     {
